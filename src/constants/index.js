@@ -13,15 +13,12 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    raweng,
+    coginit,
+    fitnessapp,
+    chat_app,
+    epiphany_india,
     threejs,
   } from "../assets";
   
@@ -46,7 +43,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -105,10 +102,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,55 +109,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend  Developer React.js",
+      company_name: "Coginit Developer's",
+      icon: coginit,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2020 - January 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full Stack Developer MERN",
+      company_name: "Raw Engineering",
+      icon: raweng,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js and other related technologies, implemented geofence UI feature with ReactJs and Material UI, React Hook Forms for dynamic approach",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to the implementation of scalable APIs and background workers (delayed jobs) for managing first and third-party integrations in DFEP which involved technologies like Express.js, Node.js, NestJS, MongoDB, and graphQL."
       ],
     },
   ];
@@ -172,93 +137,91 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their clients' success like Hrithik does, a true team player and tech geek. He goes out of his way when you ask for some help and guidance",
+      name: "Tarun Singh",
+      designation: "Senior Application Engineer",
+      company: "Raw Engineering",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      testimonial: "Impressed with the strong work ethic and problem-solving abilities. I remember his initiative in developing a last moment approach that saved us significant time and improved the final product. I am confident that he would be a valuable asset to any team.",
+      name: "Tejas Gavankar",
+      designation: "Associate Software Engineer",
+      company: "Red Hat",
+      image: "https://randomuser.me/api/portraits/men/1.jpg",
+    },
+    {
+      testimonial:"An empathetic person, a skilled developer and the go to person to solve your problems are one of the few of his qualities worth mentioning. As a former colleague and a friend, he deserves my highest recommendation and i will always he looking forward to work with Hrithik.",
+      name: "Atul Mishra",
+      designation: "SDE",
+      company: "Zeus Learning",
+      image: "https://randomuser.me/api/portraits/men/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fitness Web App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based fitness platform that allows users to search, and try out various fitness and health exercises. The demonstrattions are crystal clear and highly informative for one to achive their fitness goals",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "restAPI",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "materialUI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: fitnessapp,
+      source_code_link: "https://github.com/hrithik16032000/teamshavy-fitnessclub",
     },
     {
-      name: "Job IT",
+      name: "Chat Web App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to chat with each other, build using with use of Sockets, Rest APIs, React Hooks, and CSS",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
         },
         {
           name: "scss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socket.io",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: chat_app,
+      source_code_link: "https://github.com/hrithik16032000/projectops-chat-app",
     },
     {
-      name: "Trip Guide",
+      name: "Epiphany India",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Multimedia Production Hub project that provides news and information about the current happenings in the culture domain in India",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "restAPI",
+          color: "yellow-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: epiphany_india,
+      source_code_link: "https://github.com/hrithik16032000/demoepiphany",
     },
   ];
   
